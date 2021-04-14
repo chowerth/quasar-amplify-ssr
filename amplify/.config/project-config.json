@@ -1,0 +1,15 @@
+{
+  "projectName": "ssrtesting",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "none",
+    "config": {
+      "SourceDir": "src-ssr",
+      "DistributionDir": "dist/ssr",
+      "BuildCommand": "quasar build -m ssr",
+      "StartCommand": "yarn start"
+    }
+  },
+  "providers": ["awscloudformation"]
+}
